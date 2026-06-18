@@ -1,3 +1,14 @@
+# --- sansho project ---
+# Upstream agent source, cloned into the Docker build context at deploy time.
+app/hermes/hermes-agent/
+# CDK synth output.
+cdk.out/
+**/cdk.out/
+# Generated, account-specific AgentCore deploy target.
+agentcore/aws-targets.json
+# Local secrets.
+.env
+
 # Logs
 logs
 *.log

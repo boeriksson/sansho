@@ -1,0 +1,13 @@
+{
+  "app": "npx tsx bin/app.ts",
+  "watch": {
+    "include": ["**"],
+    "exclude": ["README.md", "cdk*.json", "**/*.d.ts", "node_modules", "dist"]
+  },
+  "context": {
+    "agentcore_runtime_arn": "arn:aws:bedrock-agentcore:eu-north-1:551529689435:runtime/sansho_hermes-hdyoX485sB",
+    "agentcore_qualifier": "DEFAULT",
+    "@aws-cdk/core:checkSecretUsage": true,
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true
+  }
+}

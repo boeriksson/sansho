@@ -1,0 +1,7 @@
+**/__pycache__
+**/*.pyc
+hermes-agent/.git
+hermes-agent/node_modules
+hermes-agent/**/__pycache__
+*.log
+.venv

@@ -1,0 +1,16 @@
+{
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "hermes": {
+            "runtimeId": "sansho_hermes-hdyoX485sB",
+            "runtimeArn": "arn:aws:bedrock-agentcore:eu-north-1:551529689435:runtime/sansho_hermes-hdyoX485sB",
+            "roleArn": "arn:aws:iam::551529689435:role/AgentCore-sansho-default-ApplicationAgentHermesRunt-Rav7fNhwmXIw"
+          }
+        },
+        "stackName": "AgentCore-sansho-default"
+      }
+    }
+  }
+}

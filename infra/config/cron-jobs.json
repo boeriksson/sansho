@@ -1,0 +1,9 @@
+[
+  {
+    "name": "morning-briefing",
+    "schedule": "cron(0 7 * * ? *)",
+    "prompt": "Good morning. Give me a short briefing for the day.",
+    "deliverTo": "15551234567",
+    "enabled": false
+  }
+]
